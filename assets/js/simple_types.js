@@ -11,3 +11,12 @@ console.log(`Decimal number: ${decimal} and Hex number: ${hex}`);
 let color = "Black";
 let fullName = 'John Doe';
 console.log(`Full name: ${fullName} and favorite color: ${color}`);
+//BigInt
+const hugeNumber = BigInt(9007199254740991);
+console.log(`Huge number: ${hugeNumber}`);
+//Symbol type
+const uniqueKey = Symbol('description');
+const obj = {
+    [uniqueKey]: 'This is a unique property'
+};
+console.log(obj[uniqueKey]);
