@@ -4,6 +4,6 @@
         "outDir":"assets/js",
         "rootDir": "assets/ts",
         "noEmitOnError": true,
-        // "moduleDetection": "force"
+        "moduleDetection": "force"
     }
 }
